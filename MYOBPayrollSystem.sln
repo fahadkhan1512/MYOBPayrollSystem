@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB.PayrollSystem.Model", "MYOB.PayrollSystem.Model\MYOB.PayrollSystem.Model.csproj", "{7E8C4AE6-20D4-4C6D-8737-389B34ED1E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB.PayrollSystem.DataServices.Tests", "MYOB.PayrollSystem.DataServices.Tests\MYOB.PayrollSystem.DataServices.Tests.csproj", "{1C91268F-9D9A-4E5A-B5EF-DC4E993125EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB.PayrollSystem.UIServices", "MYOB.PayrollSystem.UIServices\MYOB.PayrollSystem.UIServices.csproj", "{9A41A641-D492-4707-9E7B-092BD51D8F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB.PayrollSystem.DataServices", "MYOB.PayrollSystem.DataServices\MYOB.PayrollSystem.DataServices.csproj", "{8BE951F0-8D13-4128-BA4A-2690F6140765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB.PayrollSystem.UIServices.Tests", "MYOB.PayrollSystem.UIServices.Tests\MYOB.PayrollSystem.UIServices.Tests.csproj", "{411D05C2-3DCC-4453-AC6E-ED93038D54B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A29CB965-EFBC-48B4-9388-0AF20A22A0CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB.PayrollSystem.UI", "MYOB.PayrollSystem.UI\MYOB.PayrollSystem.UI.csproj", "{09B1A425-8660-4FCA-A651-9363797A157C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MYOB.PayrollSystem.DataService.Interfaces", "MYOB.PayrollSystem.DataService.Interfaces\MYOB.PayrollSystem.DataService.Interfaces.csproj", "{43B26756-BCC7-44BD-A4F0-84B11C35B098}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E8C4AE6-20D4-4C6D-8737-389B34ED1E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8C4AE6-20D4-4C6D-8737-389B34ED1E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8C4AE6-20D4-4C6D-8737-389B34ED1E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8C4AE6-20D4-4C6D-8737-389B34ED1E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C91268F-9D9A-4E5A-B5EF-DC4E993125EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C91268F-9D9A-4E5A-B5EF-DC4E993125EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C91268F-9D9A-4E5A-B5EF-DC4E993125EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C91268F-9D9A-4E5A-B5EF-DC4E993125EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A41A641-D492-4707-9E7B-092BD51D8F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A41A641-D492-4707-9E7B-092BD51D8F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A41A641-D492-4707-9E7B-092BD51D8F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A41A641-D492-4707-9E7B-092BD51D8F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE951F0-8D13-4128-BA4A-2690F6140765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE951F0-8D13-4128-BA4A-2690F6140765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE951F0-8D13-4128-BA4A-2690F6140765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE951F0-8D13-4128-BA4A-2690F6140765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411D05C2-3DCC-4453-AC6E-ED93038D54B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411D05C2-3DCC-4453-AC6E-ED93038D54B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411D05C2-3DCC-4453-AC6E-ED93038D54B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411D05C2-3DCC-4453-AC6E-ED93038D54B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B1A425-8660-4FCA-A651-9363797A157C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B1A425-8660-4FCA-A651-9363797A157C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B1A425-8660-4FCA-A651-9363797A157C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B1A425-8660-4FCA-A651-9363797A157C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B26756-BCC7-44BD-A4F0-84B11C35B098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B26756-BCC7-44BD-A4F0-84B11C35B098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B26756-BCC7-44BD-A4F0-84B11C35B098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B26756-BCC7-44BD-A4F0-84B11C35B098}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A2538E5-D976-4ED2-9B16-035093555A80}
+	EndGlobalSection
+EndGlobal
